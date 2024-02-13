@@ -1,0 +1,10 @@
+[{"epoch": 1, "Training Loss": 5.65635871887207, "Valid. Loss": 5.272042751312256, "Training Time": "0:00:00", "Validation Time": "0:00:00"}, 
+{"epoch": 2, "Training Loss": 5.481730858484904, "Valid. Loss": 4.937656243642171, "Training Time": "0:00:00", "Validation Time": "0:00:00"}, 
+{"epoch": 3, "Training Loss": 5.0416600704193115, "Valid. Loss": 4.602815628051758, "Training Time": "0:00:00", "Validation Time": "0:00:00"}, 
+{"epoch": 4, "Training Loss": 4.815438906351726, "Valid. Loss": 4.329344431559245, "Training Time": "0:00:00", "Validation Time": "0:00:00"}, 
+{"epoch": 5, "Training Loss": 4.534265597661336, "Valid. Loss": 4.115898768107097, "Training Time": "0:00:00", "Validation Time": "0:00:00"}, 
+{"epoch": 6, "Training Loss": 4.333746353785197, "Valid. Loss": 3.947887738545736, "Training Time": "0:00:00", "Validation Time": "0:00:00"},
+ {"epoch": 7, "Training Loss": 4.208884517351787, "Valid. Loss": 3.8239683310190835, "Training Time": "0:00:00", "Validation Time": "0:00:00"}, 
+ {"epoch": 8, "Training Loss": 4.062691887219747, "Valid. Loss": 3.738477945327759, "Training Time": "0:00:00", "Validation Time": "0:00:00"}, 
+ {"epoch": 9, "Training Loss": 3.9876836935679116, "Valid. Loss": 3.6875108083089194, "Training Time": "0:00:00", "Validation Time": "0:00:00"}, 
+ {"epoch": 10, "Training Loss": 3.9921926259994507, "Valid. Loss": 3.669278701146444, "Training Time": "0:00:00", "Validation Time": "0:00:00"}]
