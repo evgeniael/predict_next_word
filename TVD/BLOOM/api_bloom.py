@@ -17,12 +17,7 @@ with open('random_contexts_4.json') as json_file:
 
 
 API_URL = "https://api-inference.huggingface.co/models/bigscience/bloom"
-headers = {"Authorization": "Bearer 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"}
-#Evgenia
-#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
-
-#Wilker
-#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
+headers = {"Authorization": "Bearer insert_your_key"}
 
 def query(payload):
     response = requests.post(API_URL, headers=headers, json=payload)
