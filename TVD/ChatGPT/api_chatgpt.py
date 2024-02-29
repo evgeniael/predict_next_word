@@ -17,11 +17,8 @@ def set_seed(seed):
 with open('random_contexts_3.json') as json_file:
     random_cont = json.load(json_file)
 
-openai.organization = "org-AXLpdumDLTWDgwD2n55ly1TV"
-openai.api_key = "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"
-
-#API_URL = "https://api.openai.com/v1/chat/completions"
-#headers = {"Authorization": "Bearer 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"}
+openai.organization = "insert_organization"
+openai.api_key = "insert_your_API_key"
 
 def unbiased_sampling(context, n_samples, t):
     prompt = f"You are ChatGPT, a large language model trained by OpenAI. I want you to answer which word is a plausible continuation to the context '{context}'. I have no specific intent, I just want your guess. Return only the word and nothing else."
