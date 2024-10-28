@@ -31,12 +31,6 @@ def preprocess_provo_corpus(file_name):
                 unique_word_count = sum(word_dist[word_dist['Response'] == word]['Response_Count']) #getting all counts of the unique word and summing them
                 unique_word_dist.append((word, unique_word_count))
             
-            #SHOW WILKER
-            # if sum([x[1] for x in unique_word_dist]) != max(word_dist['Total_Response_Count']):
-            #     print('sum', sum([x[1] for x in unique_word_dist]), ' total', max(word_dist['Total_Response_Count']),
-            #     ' word', word_num, ' text', text_id)
-            #     print(unique_word_dist)
-            
             word_dist_dict = dict(unique_word_dist)
             paragraphs_provo[text_id]['predictions'][str(word_num)] = {}
             paragraphs_provo[text_id]['predictions'][str(word_num)]['human_dist_over_next_word_pred'] = word_dist_dict 
