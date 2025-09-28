@@ -9,3 +9,8 @@ Within each model's folder (in the `TVD` folder) you will find a script allowing
 For the experiments of the paper regarding syntax- and semantic-level experiments, as described in the *Results* section of the paper, you can consult `TVD_semantic` and `TVD_syntactic` folders.
 
 Lastly, to reproduce experiments and figures of the *Appendix*, consult the `Additional_Experiments` folder, organised by Appendix sections.
+
+
+
+**Acknowledgement**:
+This work was funded by the European Union's Horizon Europe (HE) Research and Innovation programme under Grant Agreement No 101070631 and from the UK Research and Innovation (UKRI) under the UK government's HE funding grant No 10039436.
